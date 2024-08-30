@@ -4,26 +4,31 @@ This script automates the installation process of Python 3.11.9 on your system a
 
 ## Prerequisites
 
-- Windows operating system
-- Internet connection
+- **Windows operating system**: Ensure that your system is running on Windows.
+- **Internet connection**: A stable internet connection is required to download the Python installer.
 
 ## How to Download the Repo for First-Time Users
 
-- Click the link to read [**Instructions**](https://www.gitprojects.fnbubbles420.org/how-to-download-repos).
+For detailed instructions on how to download the repository, please click on the following link: [**Instructions**](https://www.gitprojects.fnbubbles420.org/how-to-download-repos).
 
 ## Usage
 
-1. Download the script (`install_python_3.11.9.bat`) to your desired location.
-2. Double-click on the script to run it.
+1. **Download the script**: Save the file `install_python_3.11.9.bat` to your desired location on your computer.
+2. **Run the script**: Double-click on the script file to start the installation process.
 
 ## Instructions
 
-- Upon running the script, it will prompt you to confirm whether to continue with the installation.
-- If you choose to continue (`Y`), it will download the Python 3.11.9 installer from the official Python website and install it silently.
-- If you choose not to continue (`N`), the installation will be cancelled.
-- After installation, Python 3.11.9 will be available on your system.
+- When you run the script, it will first prompt you to confirm whether you want to proceed with the installation.
+- **If you choose to continue** (`Y`):
+  - The script will download the Python 3.11.9 installer from the official Python website.
+  - It will then install Python silently, meaning you won't need to interact with the installer manually.
+  - After successful installation, the script will add the Python Scripts directory to your system's PATH, allowing you to run Python from any command prompt.
+- **If you choose not to continue** (`N`):
+  - The installation will be cancelled, and the script will exit.
 
 ## Usage Example
+
+Here is a brief overview of what the script does, provided as an example within the markdown:
 
 ```batch
 @echo off
@@ -54,3 +59,4 @@ if /i "%choice%"=="Y" (
 )
 
 pause
+```
